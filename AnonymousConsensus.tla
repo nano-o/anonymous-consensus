@@ -6,71 +6,74 @@ EXTENDS Naturals, FiniteSets
 
 CONSTANTS
     P \* the processes
+,   v1,v2 \* consensus values
 ,   Bot \* default value
+,   Rs
 
+V == {v1,v2}
 N == Cardinality(P)
-Rs == 1..2*N-1 \* The registers
+NR == Cardinality(Rs)
 
 (*--algorithm Algo
   { variables
-        r = [i \in Rs |-> Bot]; \* the anonymous registers and their contents
+        regs = [r \in Rs |-> Bot]; \* the anonymous registers and their contents
     define {
     }
     process (proc \in P)
         variables
-            pref \in {0,1}; \* preference
+            pref \in V; \* preference
             read = {};
-            count = [v \in {0,1} |-> 0];
+            count = [v \in V |-> 0];
             decision = Bot;
     {
 l0: while (TRUE) {
-l1:     while (\neg (read = Rs \/ count[0] > N \/ count[1] > N)) {
-            with (i \in Rs \ read) {
-                read := read \cup {i};
-                with (v = r[i])
+l1:     while (read # Rs) {
+            with (r \in Rs \ read) {
+                read := read \cup {r};
+                with (v = regs[r])
                 if (v # Bot)
                     count[v] := count[v]+1;
             }
         };
-l2:     if (count[0] = 2*N-1 \/ count[1] = 2*N-1)
-            with (v \in {0,1}) {
-                when count[v] = 2*N-1;
+l2:     if (count[v1] = NR \/ count[v2] = NR)
+            with (v \in V) {
+                when count[v] = NR;
                 decision := v };
-        if (count[0] >= N \/ count[1] >= N)
-            with (v \in {0,1}) {
-                when count[v] >= N;
+        if (2*count[v1] > NR \/ 2*count[v2] > NR)
+            with (v \in V) {
+                when 2*count[v] > NR;
                 pref := v  };
-        with (i \in Rs)
-            r[i] := pref;
-        count := [v \in {0,1} |-> 0];
+        with (r \in Rs)
+            regs[r] := pref;
+        count := [v \in V |-> 0];
         read := {}}
     }
 }*)
-\* BEGIN TRANSLATION (chksum(pcal) = "342ac330" /\ chksum(tla) = "c69677b3")
-VARIABLES r, pc, pref, read, count, decision
+\* BEGIN TRANSLATION (chksum(pcal) = "81207bf6" /\ chksum(tla) = "471175d9")
+VARIABLES regs, pc, pref, read, count, decision
 
-vars == << r, pc, pref, read, count, decision >>
+vars == << regs, pc, pref, read, count, decision >>
 
 ProcSet == (P)
 
 Init == (* Global variables *)
-        /\ r = [i \in Rs |-> Bot]
+        /\ regs = [r \in Rs |-> Bot]
         (* Process proc *)
-        /\ pref \in [P -> {0,1}]
+        /\ pref \in [P -> V]
         /\ read = [self \in P |-> {}]
-        /\ count = [self \in P |-> [v \in {0,1} |-> 0]]
+        /\ count = [self \in P |-> [v \in V |-> 0]]
         /\ decision = [self \in P |-> Bot]
         /\ pc = [self \in ProcSet |-> "l0"]
 
 l0(self) == /\ pc[self] = "l0"
             /\ pc' = [pc EXCEPT ![self] = "l1"]
-            /\ UNCHANGED << r, pref, read, count, decision >>
+            /\ UNCHANGED << regs, pref, read, count, decision >>
 
 l1(self) == /\ pc[self] = "l1"
-            /\ IF \neg (read[self] = Rs \/ count[self][0] > N \/ count[self][1] > N)
-                  THEN /\ \E i \in Rs \ read[self]:
-                            /\ read' = [read EXCEPT ![self] = read[self] \cup {i}]
-                            /\ LET v == r[i] IN
+            /\ IF read[self] # Rs
+                  THEN /\ \E r \in Rs \ read[self]:
+                            /\ read' = [read EXCEPT ![self] = read[self] \cup {r}]
+                            /\ LET v == regs[r] IN
                                  IF v # Bot
                                     THEN /\ count' = [count EXCEPT ![self][v] = count[self][v]+1]
                                     ELSE /\ TRUE
@@ -78,24 +81,24 @@ l1(self) == /\ pc[self] = "l1"
                        /\ pc' = [pc EXCEPT ![self] = "l1"]
                   ELSE /\ pc' = [pc EXCEPT ![self] = "l2"]
                        /\ UNCHANGED << read, count >>
-            /\ UNCHANGED << r, pref, decision >>
+            /\ UNCHANGED << regs, pref, decision >>
 
 l2(self) == /\ pc[self] = "l2"
-            /\ IF count[self][0] = 2*N-1 \/ count[self][1] = 2*N-1
-                  THEN /\ \E v \in {0,1}:
-                            /\ count[self][v] = 2*N-1
+            /\ IF count[self][v1] = NR \/ count[self][v2] = NR
+                  THEN /\ \E v \in V:
+                            /\ count[self][v] = NR
                             /\ decision' = [decision EXCEPT ![self] = v]
                   ELSE /\ TRUE
                        /\ UNCHANGED decision
-            /\ IF count[self][0] >= N \/ count[self][1] >= N
-                  THEN /\ \E v \in {0,1}:
-                            /\ count[self][v] >= N
+            /\ IF 2*count[self][v1] > NR \/ 2*count[self][v2] > NR
+                  THEN /\ \E v \in V:
+                            /\ 2*count[self][v] > NR
                             /\ pref' = [pref EXCEPT ![self] = v]
                   ELSE /\ TRUE
                        /\ pref' = pref
-            /\ \E i \in Rs:
-                 r' = [r EXCEPT ![i] = pref'[self]]
-            /\ count' = [count EXCEPT ![self] = [v \in {0,1} |-> 0]]
+            /\ \E r \in Rs:
+                 regs' = [regs EXCEPT ![r] = pref'[self]]
+            /\ count' = [count EXCEPT ![self] = [v \in V |-> 0]]
             /\ read' = [read EXCEPT ![self] = {}]
             /\ pc' = [pc EXCEPT ![self] = "l0"]
 
@@ -110,6 +113,7 @@ Spec == Init /\ [][Next]_vars
 Safety == \A p1,p2 \in P : decision[p1] # Bot /\ decision[p2] # Bot =>
     decision[p1] = decision[p2]
 
+Canary0 == \A p \in P : pc[p] # "l2"
 Canary1 == \A p \in P : decision[p] = Bot
 Canary2 == \E p \in P : decision[p] = Bot
 

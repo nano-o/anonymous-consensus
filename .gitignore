@@ -11,7 +11,7 @@
 
 ## Whitelist TLC model config and results
 !*.cfg
-!*.out  ## Usually .out files are small
+!*.out
 
 ## Whitelist Toolbox model metadata
 !*.launch
