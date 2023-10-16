@@ -1,14 +1,14 @@
 --------------- MODULE AnonymousConsensus -------------------
 
-\* Binary, obstruction-free consensus using anonymous registers
+\* Binary, obstruction-free consensus using anonymous registers and anonymous processes
 
 EXTENDS Naturals, FiniteSets
 
 CONSTANTS
-    P \* the processes
+    P \* the anonymous processes
 ,   v1,v2 \* consensus values
 ,   Bot \* default value
-,   Rs
+,   Rs \* the anonymous registers
 
 V == {v1,v2}
 N == Cardinality(P)
@@ -17,8 +17,6 @@ NR == Cardinality(Rs)
 (*--algorithm Algo
   { variables
         regs = [r \in Rs |-> Bot]; \* the anonymous registers and their contents
-    define {
-    }
     process (proc \in P)
         variables
             pref \in V; \* preference
