@@ -1,16 +1,15 @@
 --------------- MODULE AnonymousConsensus -------------------
 
-\* Binary, obstruction-free consensus using anonymous registers and anonymous processes
+\* Obstruction-free set-agreement using anonymous registers and anonymous processes
 
 EXTENDS Naturals, FiniteSets
 
 CONSTANTS
     P \* the anonymous processes
-,   v1,v2 \* consensus values
+,   V \* consensus values
 ,   Bot \* default value
 ,   Rs \* the anonymous registers
 
-V == {v1,v2}
 N == Cardinality(P)
 NR == Cardinality(Rs)
 
@@ -33,21 +32,23 @@ l1:     while (read # Rs) {
                     count[v] := count[v]+1;
             }
         };
-l2:     if (count[v1] = NR \/ count[v2] = NR)
+l2:     if (\E v \in V : count[v] = NR)
             with (v \in V) {
                 when count[v] = NR;
                 decision := v };
-        if (2*count[v1] > NR \/ 2*count[v2] > NR)
+        if (\E v \in V : 2*count[v] > NR)
             with (v \in V) {
                 when 2*count[v] > NR;
                 pref := v  };
         with (r \in Rs)
             regs[r] := pref;
         count := [v \in V |-> 0];
-        read := {}}
-    }
+        read := {};
+        if (decision # Bot)
+            goto "Done";
+    }}
 }*)
-\* BEGIN TRANSLATION (chksum(pcal) = "81207bf6" /\ chksum(tla) = "471175d9")
+\* BEGIN TRANSLATION (chksum(pcal) = "e84b9d43" /\ chksum(tla) = "36e54315")
 VARIABLES regs, pc, pref, read, count, decision
 
 vars == << regs, pc, pref, read, count, decision >>
@@ -82,13 +83,13 @@ l1(self) == /\ pc[self] = "l1"
             /\ UNCHANGED << regs, pref, decision >>
 
 l2(self) == /\ pc[self] = "l2"
-            /\ IF count[self][v1] = NR \/ count[self][v2] = NR
+            /\ IF \E v \in V : count[self][v] = NR
                   THEN /\ \E v \in V:
                             /\ count[self][v] = NR
                             /\ decision' = [decision EXCEPT ![self] = v]
                   ELSE /\ TRUE
                        /\ UNCHANGED decision
-            /\ IF 2*count[self][v1] > NR \/ 2*count[self][v2] > NR
+            /\ IF \E v \in V : 2*count[self][v] > NR
                   THEN /\ \E v \in V:
                             /\ 2*count[self][v] > NR
                             /\ pref' = [pref EXCEPT ![self] = v]
@@ -98,18 +99,31 @@ l2(self) == /\ pc[self] = "l2"
                  regs' = [regs EXCEPT ![r] = pref'[self]]
             /\ count' = [count EXCEPT ![self] = [v \in V |-> 0]]
             /\ read' = [read EXCEPT ![self] = {}]
-            /\ pc' = [pc EXCEPT ![self] = "l0"]
+            /\ IF decision'[self] # Bot
+                  THEN /\ pc' = [pc EXCEPT ![self] = "Done"]
+                  ELSE /\ pc' = [pc EXCEPT ![self] = "l0"]
 
 proc(self) == l0(self) \/ l1(self) \/ l2(self)
 
+(* Allow infinite stuttering to prevent deadlock on termination. *)
+Terminating == /\ \A self \in ProcSet: pc[self] = "Done"
+               /\ UNCHANGED vars
+
 Next == (\E self \in P: proc(self))
+           \/ Terminating
 
 Spec == Init /\ [][Next]_vars
 
+Termination == <>(\A self \in ProcSet: pc[self] = "Done")
+
 \* END TRANSLATION 
 
-Safety == \A p1,p2 \in P : decision[p1] # Bot /\ decision[p2] # Bot =>
+Consensus == \A p1,p2 \in P : decision[p1] # Bot /\ decision[p2] # Bot =>
     decision[p1] = decision[p2]
+
+SetConsensus == \* we must decide at most N-1 values
+    LET Decided == {v \in V : \E p \in P : decision[p] = v}
+    IN  Cardinality(Decided) < N
 
 Canary0 == \A p \in P : pc[p] # "l2"
 Canary1 == \A p \in P : decision[p] = Bot
