@@ -11,10 +11,10 @@ EXTENDS AnonymousConsensus, TLC
 CONSTANTS p1, p2, p3
 P_MC == {p1,p2,p3}
 \* The values:
-\* CONSTANTS v1, v2, v3
-\* V_MC == {v1,v2,v3}
-CONSTANTS v1, v2
-V_MC == {v1,v2}
+CONSTANTS v1, v2, v3
+V_MC == {v1,v2,v3}
+\* CONSTANTS v1, v2
+\* V_MC == {v1,v2}
 \* The registers:
 CONSTANTS r1, r2, r3, r4, r5
 Rs_MC == {r1,r2,r3,r4,r5}

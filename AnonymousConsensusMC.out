@@ -2,17 +2,17 @@
 TLC2 Version 2.18 of Day Month 20?? (rev: a73f911)
 @!@!@ENDMSG 2262 @!@!@
 @!@!@STARTMSG 2187:0 @!@!@
-Running breadth-first search Model-Checking with fp 97 and seed -8459922964001932106 with 16 workers on 20 cores with 36409MB heap and 64MB offheap memory [pid: 30270] (Linux 6.1.11-76060111-generic amd64, Ubuntu 11.0.20.1 x86_64, OffHeapDiskFPSet, DiskByteArrayQueue).
+Running breadth-first search Model-Checking with fp 79 and seed -5720147721294061462 with 16 workers on 20 cores with 36409MB heap and 64MB offheap memory [pid: 32029] (Linux 6.1.11-76060111-generic amd64, Ubuntu 11.0.20.1 x86_64, OffHeapDiskFPSet, DiskByteArrayQueue).
 @!@!@ENDMSG 2187 @!@!@
 @!@!@STARTMSG 2220:0 @!@!@
 Starting SANY...
 @!@!@ENDMSG 2220 @!@!@
 Parsing file /home/nano/Documents/anonymous-consensus/AnonymousConsensusMC.tla
 Parsing file /home/nano/Documents/anonymous-consensus/AnonymousConsensus.tla
-Parsing file /tmp/tlc-4367134636993664936/TLC.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
-Parsing file /tmp/tlc-4367134636993664936/Naturals.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
-Parsing file /tmp/tlc-4367134636993664936/FiniteSets.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
-Parsing file /tmp/tlc-4367134636993664936/Sequences.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Parsing file /tmp/tlc-7384544271066320273/TLC.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-7384544271066320273/Naturals.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-7384544271066320273/FiniteSets.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-7384544271066320273/Sequences.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
 Semantic processing of module Naturals
 Semantic processing of module Sequences
 Semantic processing of module FiniteSets
@@ -23,7 +23,7 @@ Semantic processing of module AnonymousConsensusMC
 SANY finished.
 @!@!@ENDMSG 2219 @!@!@
 @!@!@STARTMSG 2185:0 @!@!@
-Starting... (2023-10-16 16:25:02)
+Starting... (2023-10-16 17:06:38)
 @!@!@ENDMSG 2185 @!@!@
 @!@!@STARTMSG 2189:0 @!@!@
 Computing initial states...
@@ -34,1227 +34,643 @@ Computed 2 initial states...
 @!@!@STARTMSG 2269:0 @!@!@
 Computed 4 initial states...
 @!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 8 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 16 initial states...
+@!@!@ENDMSG 2269 @!@!@
 @!@!@STARTMSG 2191:0 @!@!@
-Finished computing initial states: 8 states generated, with 2 of them distinct at 2023-10-16 16:25:02.
+Finished computing initial states: 27 states generated, with 3 of them distinct at 2023-10-16 17:06:38.
 @!@!@ENDMSG 2191 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(24) at 2023-10-16 16:25:05: 97,323 states generated (97,323 s/min), 15,105 distinct states found (15,105 ds/min), 2,752 states left on queue.
+Progress(19) at 2023-10-16 17:06:41: 36,183 states generated (36,183 s/min), 6,129 distinct states found (6,129 ds/min), 1,904 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(39) at 2023-10-16 16:26:05: 2,129,676 states generated (2,032,353 s/min), 321,759 distinct states found (306,654 ds/min), 37,476 states left on queue.
+Progress(31) at 2023-10-16 17:07:41: 731,085 states generated (694,902 s/min), 111,756 distinct states found (105,627 ds/min), 17,839 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(45) at 2023-10-16 16:27:05: 4,186,784 states generated (2,057,108 s/min), 652,393 distinct states found (330,634 ds/min), 102,546 states left on queue.
+Progress(35) at 2023-10-16 17:08:41: 1,447,397 states generated (716,312 s/min), 233,056 distinct states found (121,300 ds/min), 48,663 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(48) at 2023-10-16 16:28:05: 6,149,272 states generated (1,962,488 s/min), 918,153 distinct states found (265,760 ds/min), 75,696 states left on queue.
+Progress(36) at 2023-10-16 17:09:41: 2,136,186 states generated (688,789 s/min), 344,699 distinct states found (111,643 ds/min), 76,191 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(51) at 2023-10-16 16:29:05: 8,214,723 states generated (2,065,451 s/min), 1,234,309 distinct states found (316,156 ds/min), 116,627 states left on queue.
+Progress(37) at 2023-10-16 17:10:41: 2,822,765 states generated (686,579 s/min), 443,523 distinct states found (98,824 ds/min), 82,038 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(53) at 2023-10-16 16:30:05: 10,207,434 states generated (1,992,711 s/min), 1,540,078 distinct states found (305,769 ds/min), 159,363 states left on queue.
+Progress(39) at 2023-10-16 17:11:41: 3,521,645 states generated (698,880 s/min), 537,670 distinct states found (94,147 ds/min), 71,661 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(55) at 2023-10-16 16:31:05: 12,159,550 states generated (1,952,116 s/min), 1,800,108 distinct states found (260,030 ds/min), 121,176 states left on queue.
+Progress(40) at 2023-10-16 17:12:41: 4,205,738 states generated (684,093 s/min), 631,508 distinct states found (93,838 ds/min), 62,199 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(58) at 2023-10-16 16:32:05: 14,183,127 states generated (2,023,577 s/min), 2,056,812 distinct states found (256,704 ds/min), 81,897 states left on queue.
+Progress(42) at 2023-10-16 17:13:41: 4,924,852 states generated (719,114 s/min), 754,342 distinct states found (122,834 ds/min), 92,717 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(61) at 2023-10-16 16:33:05: 16,200,156 states generated (2,017,029 s/min), 2,364,381 distinct states found (307,569 ds/min), 130,328 states left on queue.
+Progress(43) at 2023-10-16 17:14:41: 5,636,700 states generated (711,848 s/min), 881,118 distinct states found (126,776 ds/min), 134,229 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(63) at 2023-10-16 16:34:05: 18,148,743 states generated (1,948,587 s/min), 2,629,924 distinct states found (265,543 ds/min), 105,042 states left on queue.
+Progress(43) at 2023-10-16 17:15:41: 6,335,445 states generated (698,745 s/min), 1,003,390 distinct states found (122,272 ds/min), 173,691 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(67) at 2023-10-16 16:35:05: 20,158,136 states generated (2,009,393 s/min), 2,871,463 distinct states found (241,539 ds/min), 52,393 states left on queue.
+Progress(44) at 2023-10-16 17:16:41: 7,016,084 states generated (680,639 s/min), 1,110,630 distinct states found (107,240 ds/min), 195,430 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(72) at 2023-10-16 16:36:05: 22,123,012 states generated (1,964,876 s/min), 3,141,146 distinct states found (269,683 ds/min), 44,269 states left on queue.
+Progress(44) at 2023-10-16 17:17:41: 7,724,691 states generated (708,607 s/min), 1,225,069 distinct states found (114,439 ds/min), 220,520 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(92) at 2023-10-16 16:37:05: 24,112,343 states generated (1,989,331 s/min), 3,384,656 distinct states found (243,510 ds/min), 1,805 states left on queue.
+Progress(45) at 2023-10-16 17:18:41: 8,425,501 states generated (700,810 s/min), 1,326,794 distinct states found (101,725 ds/min), 226,164 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
-@!@!@STARTMSG 2110:1 @!@!@
-Invariant Consensus is violated.
-@!@!@ENDMSG 2110 @!@!@
-@!@!@STARTMSG 2121:1 @!@!@
-The behavior up to this point is:
-@!@!@ENDMSG 2121 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-1: <Initial predicate>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l0" @@ p2 :> "l0" @@ p3 :> "l0")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-2: <l0(p3) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l0" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-3: <l0(p1) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-4: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-5: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-6: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-7: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-8: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-9: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l2" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-10: <l2(p1) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l0" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-11: <l0(p1) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-12: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-13: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-14: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-15: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-16: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-17: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l2" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-18: <l2(p1) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l0" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-19: <l0(p1) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-20: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-21: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-22: <l0(p2) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-23: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-24: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-25: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-26: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-27: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-28: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2, r3} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-29: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-30: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l2" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-31: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l2" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-32: <l2(p1) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l0" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-33: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l0" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-34: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l0" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 1 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-35: <l0(p1) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 1 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-36: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 1 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-37: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 1 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-38: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 1 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-39: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-40: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-41: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-42: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l2")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-43: <l2(p3) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l0")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-44: <l0(p3) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-45: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-46: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 1 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-47: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r4})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 1 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-48: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-49: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l2" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-50: <l2(p2) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-51: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-52: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-53: <l0(p2) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-54: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 1) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-55: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 1) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-56: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 1) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-57: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-58: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l2")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 2 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-59: <l2(p3) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l0")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-60: <l0(p3) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-61: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-62: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-63: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-64: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-65: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l2" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 3 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-66: <l2(p2) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-67: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 5 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-68: <l0(p2) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 5 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-69: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "l2" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 5 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-70: <l2(p1) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-71: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-72: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 2) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-73: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 2) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-74: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 2) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-75: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 2) @@
-  p3 :> (v1 :> 1 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-76: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 2) @@
-  p3 :> (v1 :> 2 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-77: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l2")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 2) @@
-  p3 :> (v1 :> 2 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-78: <l2(p3) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l0")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 2) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-79: <l0(p3) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 2) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-80: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 3) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-81: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l2" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 2 @@ v2 :> 3) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-82: <l2(p2) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-83: <l0(p2) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-84: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 1) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-85: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 2) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-86: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 3) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-87: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 3) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-88: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 4) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-89: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 4) @@
-  p3 :> (v1 :> 0 @@ v2 :> 1) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-90: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 4) @@
-  p3 :> (v1 :> 0 @@ v2 :> 2) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-91: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 4) @@
-  p3 :> (v1 :> 0 @@ v2 :> 3) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-92: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l2" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 1 @@ v2 :> 4) @@
-  p3 :> (v1 :> 0 @@ v2 :> 3) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-93: <l2(p2) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r3})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 3) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-94: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 4) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-95: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l1")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 5) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-96: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
-/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l2")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 5) )
-
-@!@!@ENDMSG 2217 @!@!@
-@!@!@STARTMSG 2217:4 @!@!@
-97: <l2(p3) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
-/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
-/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
-/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
-/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> v2)
-/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "Done")
-/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
-  p2 :> (v1 :> 0 @@ v2 :> 0) @@
-  p3 :> (v1 :> 0 @@ v2 :> 0) )
-
-@!@!@ENDMSG 2217 @!@!@
 @!@!@STARTMSG 2200:0 @!@!@
-Progress(97) at 2023-10-16 16:37:07: 24,166,824 states generated (1,998,780 s/min), 3,391,365 distinct states found (280,491 ds/min), 915 states left on queue.
+Progress(45) at 2023-10-16 17:19:41: 9,121,615 states generated (696,114 s/min), 1,428,041 distinct states found (101,247 ds/min), 230,994 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(46) at 2023-10-16 17:20:41: 9,816,990 states generated (695,375 s/min), 1,524,229 distinct states found (96,188 ds/min), 225,465 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(46) at 2023-10-16 17:21:41: 10,506,489 states generated (689,499 s/min), 1,616,302 distinct states found (92,073 ds/min), 213,674 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(47) at 2023-10-16 17:22:41: 11,201,855 states generated (695,366 s/min), 1,711,285 distinct states found (94,983 ds/min), 201,627 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(47) at 2023-10-16 17:23:41: 11,895,224 states generated (693,369 s/min), 1,798,139 distinct states found (86,854 ds/min), 179,013 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(48) at 2023-10-16 17:24:41: 12,608,877 states generated (713,653 s/min), 1,896,915 distinct states found (98,776 ds/min), 168,830 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(48) at 2023-10-16 17:25:41: 13,318,084 states generated (709,207 s/min), 1,983,612 distinct states found (86,697 ds/min), 145,494 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(49) at 2023-10-16 17:26:41: 14,063,512 states generated (745,428 s/min), 2,099,647 distinct states found (116,035 ds/min), 159,328 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(50) at 2023-10-16 17:27:41: 14,812,283 states generated (748,771 s/min), 2,224,619 distinct states found (124,972 ds/min), 188,550 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(50) at 2023-10-16 17:28:41: 15,561,218 states generated (748,935 s/min), 2,354,721 distinct states found (130,102 ds/min), 225,799 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(51) at 2023-10-16 17:29:41: 16,296,337 states generated (735,119 s/min), 2,478,586 distinct states found (123,865 ds/min), 261,218 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(51) at 2023-10-16 17:30:41: 17,027,932 states generated (731,595 s/min), 2,610,264 distinct states found (131,678 ds/min), 304,979 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(52) at 2023-10-16 17:31:41: 17,757,286 states generated (729,354 s/min), 2,735,223 distinct states found (124,959 ds/min), 341,155 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(52) at 2023-10-16 17:32:41: 18,469,133 states generated (711,847 s/min), 2,848,248 distinct states found (113,025 ds/min), 364,275 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(52) at 2023-10-16 17:33:41: 19,179,039 states generated (709,906 s/min), 2,962,082 distinct states found (113,834 ds/min), 388,623 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(52) at 2023-10-16 17:34:41: 19,891,411 states generated (712,372 s/min), 3,080,150 distinct states found (118,068 ds/min), 416,512 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(53) at 2023-10-16 17:35:41: 20,598,938 states generated (707,527 s/min), 3,186,930 distinct states found (106,780 ds/min), 430,103 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2195:0 @!@!@
+Checkpointing of run states/23-10-16-17-06-38.194
+@!@!@ENDMSG 2195 @!@!@
+@!@!@STARTMSG 2196:0 @!@!@
+Checkpointing completed at (2023-10-16 17:36:41)
+@!@!@ENDMSG 2196 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(53) at 2023-10-16 17:36:41: 21,296,104 states generated (697,166 s/min), 3,292,271 distinct states found (105,341 ds/min), 438,507 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(53) at 2023-10-16 17:37:41: 21,991,258 states generated (695,154 s/min), 3,389,875 distinct states found (97,604 ds/min), 439,481 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(53) at 2023-10-16 17:38:41: 22,689,032 states generated (697,774 s/min), 3,496,470 distinct states found (106,595 ds/min), 449,537 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(54) at 2023-10-16 17:39:41: 23,387,898 states generated (698,866 s/min), 3,599,770 distinct states found (103,300 ds/min), 456,156 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(54) at 2023-10-16 17:40:41: 24,081,230 states generated (693,332 s/min), 3,693,098 distinct states found (93,328 ds/min), 445,014 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(54) at 2023-10-16 17:41:41: 24,767,987 states generated (686,757 s/min), 3,784,521 distinct states found (91,423 ds/min), 430,356 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(54) at 2023-10-16 17:42:41: 25,457,886 states generated (689,899 s/min), 3,879,756 distinct states found (95,235 ds/min), 421,389 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(54) at 2023-10-16 17:43:41: 26,147,204 states generated (689,318 s/min), 3,972,158 distinct states found (92,402 ds/min), 408,572 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(55) at 2023-10-16 17:44:41: 26,846,543 states generated (699,339 s/min), 4,066,304 distinct states found (94,146 ds/min), 396,004 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(55) at 2023-10-16 17:45:41: 27,537,195 states generated (690,652 s/min), 4,153,686 distinct states found (87,382 ds/min), 371,554 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(55) at 2023-10-16 17:46:41: 28,227,239 states generated (690,044 s/min), 4,242,107 distinct states found (88,421 ds/min), 351,005 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(55) at 2023-10-16 17:47:41: 28,917,916 states generated (690,677 s/min), 4,327,920 distinct states found (85,813 ds/min), 326,598 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(56) at 2023-10-16 17:48:41: 29,639,486 states generated (721,570 s/min), 4,426,108 distinct states found (98,188 ds/min), 317,275 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(56) at 2023-10-16 17:49:41: 30,339,982 states generated (700,496 s/min), 4,507,580 distinct states found (81,472 ds/min), 287,361 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(56) at 2023-10-16 17:50:41: 31,042,775 states generated (702,793 s/min), 4,589,861 distinct states found (82,281 ds/min), 260,152 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(57) at 2023-10-16 17:51:41: 31,789,065 states generated (746,290 s/min), 4,705,979 distinct states found (116,118 ds/min), 275,504 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(57) at 2023-10-16 17:52:41: 32,511,975 states generated (722,910 s/min), 4,794,422 distinct states found (88,443 ds/min), 257,413 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(58) at 2023-10-16 17:53:41: 33,248,304 states generated (736,329 s/min), 4,902,441 distinct states found (108,019 ds/min), 265,495 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(58) at 2023-10-16 17:54:41: 33,998,301 states generated (749,997 s/min), 5,036,407 distinct states found (133,966 ds/min), 308,679 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(58) at 2023-10-16 17:55:41: 34,736,210 states generated (737,909 s/min), 5,139,380 distinct states found (102,973 ds/min), 312,861 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(59) at 2023-10-16 17:56:41: 35,469,127 states generated (732,917 s/min), 5,265,455 distinct states found (126,075 ds/min), 349,568 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(59) at 2023-10-16 17:57:41: 36,200,225 states generated (731,098 s/min), 5,390,604 distinct states found (125,149 ds/min), 388,308 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(59) at 2023-10-16 17:58:41: 36,933,536 states generated (733,311 s/min), 5,515,994 distinct states found (125,390 ds/min), 422,385 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(60) at 2023-10-16 17:59:41: 37,659,320 states generated (725,784 s/min), 5,634,523 distinct states found (118,529 ds/min), 450,551 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(60) at 2023-10-16 18:00:41: 38,370,230 states generated (710,910 s/min), 5,746,319 distinct states found (111,796 ds/min), 472,681 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(60) at 2023-10-16 18:01:41: 39,079,714 states generated (709,484 s/min), 5,857,365 distinct states found (111,046 ds/min), 494,248 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(60) at 2023-10-16 18:02:41: 39,790,188 states generated (710,474 s/min), 5,978,222 distinct states found (120,857 ds/min), 524,850 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(60) at 2023-10-16 18:03:41: 40,504,847 states generated (714,659 s/min), 6,094,038 distinct states found (115,816 ds/min), 550,233 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(61) at 2023-10-16 18:04:41: 41,210,668 states generated (705,821 s/min), 6,204,529 distinct states found (110,491 ds/min), 567,273 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(61) at 2023-10-16 18:05:41: 41,907,608 states generated (696,940 s/min), 6,307,118 distinct states found (102,589 ds/min), 573,291 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2195:0 @!@!@
+Checkpointing of run states/23-10-16-17-06-38.194
+@!@!@ENDMSG 2195 @!@!@
+@!@!@STARTMSG 2196:0 @!@!@
+Checkpointing completed at (2023-10-16 18:06:42)
+@!@!@ENDMSG 2196 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(61) at 2023-10-16 18:06:42: 42,606,978 states generated (699,370 s/min), 6,402,326 distinct states found (95,208 ds/min), 571,662 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(61) at 2023-10-16 18:07:42: 43,301,238 states generated (694,260 s/min), 6,510,028 distinct states found (107,702 ds/min), 582,312 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(61) at 2023-10-16 18:08:42: 43,997,020 states generated (695,782 s/min), 6,613,431 distinct states found (103,403 ds/min), 589,607 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(61) at 2023-10-16 18:09:42: 44,694,697 states generated (697,677 s/min), 6,718,980 distinct states found (105,549 ds/min), 599,436 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(62) at 2023-10-16 18:10:42: 45,386,745 states generated (692,048 s/min), 6,814,787 distinct states found (95,807 ds/min), 593,457 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(62) at 2023-10-16 18:11:42: 46,078,219 states generated (691,474 s/min), 6,908,449 distinct states found (93,662 ds/min), 583,587 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(62) at 2023-10-16 18:12:42: 46,766,769 states generated (688,550 s/min), 6,999,022 distinct states found (90,573 ds/min), 568,787 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(62) at 2023-10-16 18:13:42: 47,453,438 states generated (686,669 s/min), 7,096,697 distinct states found (97,675 ds/min), 560,377 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(62) at 2023-10-16 18:14:42: 48,143,046 states generated (689,608 s/min), 7,193,302 distinct states found (96,605 ds/min), 553,433 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(62) at 2023-10-16 18:15:42: 48,832,631 states generated (689,585 s/min), 7,288,474 distinct states found (95,172 ds/min), 544,895 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(63) at 2023-10-16 18:16:42: 49,526,196 states generated (693,565 s/min), 7,378,425 distinct states found (89,951 ds/min), 527,710 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(63) at 2023-10-16 18:17:42: 50,221,708 states generated (695,512 s/min), 7,466,716 distinct states found (88,291 ds/min), 505,976 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(63) at 2023-10-16 18:18:42: 50,898,929 states generated (677,221 s/min), 7,553,007 distinct states found (86,291 ds/min), 481,308 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(63) at 2023-10-16 18:19:42: 51,585,396 states generated (686,467 s/min), 7,639,613 distinct states found (86,606 ds/min), 458,090 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(63) at 2023-10-16 18:20:42: 52,275,527 states generated (690,131 s/min), 7,727,759 distinct states found (88,146 ds/min), 438,024 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(64) at 2023-10-16 18:21:42: 52,980,755 states generated (705,228 s/min), 7,812,738 distinct states found (84,979 ds/min), 414,411 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(64) at 2023-10-16 18:22:42: 53,698,630 states generated (717,875 s/min), 7,905,673 distinct states found (92,935 ds/min), 399,491 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(64) at 2023-10-16 18:23:42: 54,396,405 states generated (697,775 s/min), 7,985,805 distinct states found (80,132 ds/min), 368,291 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(64) at 2023-10-16 18:24:42: 55,094,923 states generated (698,518 s/min), 8,066,523 distinct states found (80,718 ds/min), 338,912 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(65) at 2023-10-16 18:25:42: 55,827,731 states generated (732,808 s/min), 8,167,412 distinct states found (100,889 ds/min), 335,911 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(65) at 2023-10-16 18:26:42: 56,558,926 states generated (731,195 s/min), 8,266,452 distinct states found (99,040 ds/min), 331,424 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(65) at 2023-10-16 18:27:42: 57,272,907 states generated (713,981 s/min), 8,344,723 distinct states found (78,271 ds/min), 302,448 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(66) at 2023-10-16 18:28:42: 58,009,389 states generated (736,482 s/min), 8,450,893 distinct states found (106,170 ds/min), 307,942 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(66) at 2023-10-16 18:29:42: 58,759,323 states generated (749,934 s/min), 8,585,927 distinct states found (135,034 ds/min), 354,408 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(66) at 2023-10-16 18:30:42: 59,489,657 states generated (730,334 s/min), 8,675,175 distinct states found (89,248 ds/min), 341,215 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(67) at 2023-10-16 18:31:42: 60,222,950 states generated (733,293 s/min), 8,789,369 distinct states found (114,194 ds/min), 361,450 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(67) at 2023-10-16 18:32:42: 60,952,744 states generated (729,794 s/min), 8,914,768 distinct states found (125,399 ds/min), 399,948 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(67) at 2023-10-16 18:33:42: 61,681,747 states generated (729,003 s/min), 9,039,407 distinct states found (124,639 ds/min), 437,460 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(67) at 2023-10-16 18:34:42: 62,412,043 states generated (730,296 s/min), 9,146,495 distinct states found (107,088 ds/min), 450,184 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(68) at 2023-10-16 18:35:42: 63,126,403 states generated (714,360 s/min), 9,265,485 distinct states found (118,990 ds/min), 478,269 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2195:0 @!@!@
+Checkpointing of run states/23-10-16-17-06-38.194
+@!@!@ENDMSG 2195 @!@!@
+@!@!@STARTMSG 2196:0 @!@!@
+Checkpointing completed at (2023-10-16 18:36:42)
+@!@!@ENDMSG 2196 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(68) at 2023-10-16 18:36:42: 63,808,765 states generated (682,362 s/min), 9,379,153 distinct states found (113,668 ds/min), 505,425 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(68) at 2023-10-16 18:37:42: 64,484,316 states generated (675,551 s/min), 9,478,490 distinct states found (99,337 ds/min), 519,777 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(68) at 2023-10-16 18:38:42: 65,160,795 states generated (676,479 s/min), 9,588,027 distinct states found (109,537 ds/min), 543,722 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(68) at 2023-10-16 18:39:42: 65,840,077 states generated (679,282 s/min), 9,697,214 distinct states found (109,187 ds/min), 566,406 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(69) at 2023-10-16 18:40:42: 66,508,986 states generated (668,909 s/min), 9,803,412 distinct states found (106,198 ds/min), 582,130 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(69) at 2023-10-16 18:41:42: 67,176,018 states generated (667,032 s/min), 9,907,443 distinct states found (104,031 ds/min), 595,110 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(69) at 2023-10-16 18:42:42: 67,835,339 states generated (659,321 s/min), 9,992,936 distinct states found (85,493 ds/min), 587,960 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(69) at 2023-10-16 18:43:42: 68,498,668 states generated (663,329 s/min), 10,086,793 distinct states found (93,857 ds/min), 589,980 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(69) at 2023-10-16 18:44:42: 69,206,999 states generated (708,331 s/min), 10,193,011 distinct states found (106,218 ds/min), 597,994 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(69) at 2023-10-16 18:45:42: 69,871,525 states generated (664,526 s/min), 10,295,199 distinct states found (102,188 ds/min), 609,550 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(70) at 2023-10-16 18:46:42: 70,535,361 states generated (663,836 s/min), 10,391,810 distinct states found (96,611 ds/min), 611,466 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(70) at 2023-10-16 18:47:42: 71,194,588 states generated (659,227 s/min), 10,486,540 distinct states found (94,730 ds/min), 608,001 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(70) at 2023-10-16 18:48:42: 71,847,888 states generated (653,300 s/min), 10,570,276 distinct states found (83,736 ds/min), 589,432 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(70) at 2023-10-16 18:49:42: 72,506,972 states generated (659,084 s/min), 10,654,830 distinct states found (84,554 ds/min), 574,233 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(70) at 2023-10-16 18:50:42: 73,163,855 states generated (656,883 s/min), 10,743,954 distinct states found (89,124 ds/min), 562,936 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(70) at 2023-10-16 18:51:42: 73,820,743 states generated (656,888 s/min), 10,839,606 distinct states found (95,652 ds/min), 559,198 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(71) at 2023-10-16 18:52:42: 74,482,339 states generated (661,596 s/min), 10,930,156 distinct states found (90,550 ds/min), 551,049 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(71) at 2023-10-16 18:53:42: 75,142,429 states generated (660,090 s/min), 11,015,840 distinct states found (85,684 ds/min), 533,214 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(71) at 2023-10-16 18:54:42: 75,801,680 states generated (659,251 s/min), 11,095,261 distinct states found (79,421 ds/min), 505,477 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(71) at 2023-10-16 18:55:42: 76,462,628 states generated (660,948 s/min), 11,176,795 distinct states found (81,534 ds/min), 481,999 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(71) at 2023-10-16 18:56:42: 77,117,358 states generated (654,730 s/min), 11,262,723 distinct states found (85,928 ds/min), 461,951 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(72) at 2023-10-16 18:57:42: 77,779,209 states generated (661,851 s/min), 11,347,012 distinct states found (84,289 ds/min), 444,897 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(72) at 2023-10-16 18:58:42: 78,449,504 states generated (670,295 s/min), 11,425,631 distinct states found (78,619 ds/min), 419,900 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(72) at 2023-10-16 18:59:42: 79,171,049 states generated (721,545 s/min), 11,512,835 distinct states found (87,204 ds/min), 394,191 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(72) at 2023-10-16 19:00:42: 79,864,347 states generated (693,298 s/min), 11,595,836 distinct states found (83,001 ds/min), 369,112 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(72) at 2023-10-16 19:01:42: 80,561,133 states generated (696,786 s/min), 11,676,281 distinct states found (80,445 ds/min), 340,151 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(73) at 2023-10-16 19:02:42: 81,278,998 states generated (717,865 s/min), 11,757,956 distinct states found (81,675 ds/min), 315,149 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(73) at 2023-10-16 19:03:42: 82,018,490 states generated (739,492 s/min), 11,864,789 distinct states found (106,833 ds/min), 319,727 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(73) at 2023-10-16 19:04:42: 82,729,856 states generated (711,366 s/min), 11,942,856 distinct states found (78,067 ds/min), 289,993 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(74) at 2023-10-16 19:05:42: 83,458,831 states generated (728,975 s/min), 12,034,062 distinct states found (91,206 ds/min), 278,482 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2195:0 @!@!@
+Checkpointing of run states/23-10-16-17-06-38.194
+@!@!@ENDMSG 2195 @!@!@
+@!@!@STARTMSG 2196:0 @!@!@
+Checkpointing completed at (2023-10-16 19:06:42)
+@!@!@ENDMSG 2196 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(74) at 2023-10-16 19:06:42: 84,209,258 states generated (750,427 s/min), 12,165,148 distinct states found (131,086 ds/min), 317,171 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(74) at 2023-10-16 19:07:42: 84,938,496 states generated (729,238 s/min), 12,255,162 distinct states found (90,014 ds/min), 305,881 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(75) at 2023-10-16 19:08:42: 85,671,461 states generated (732,965 s/min), 12,370,417 distinct states found (115,255 ds/min), 326,141 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(75) at 2023-10-16 19:09:42: 86,400,580 states generated (729,119 s/min), 12,495,829 distinct states found (125,412 ds/min), 364,412 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(75) at 2023-10-16 19:10:42: 87,128,831 states generated (728,251 s/min), 12,615,258 distinct states found (119,429 ds/min), 395,367 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(76) at 2023-10-16 19:11:42: 87,849,794 states generated (720,963 s/min), 12,724,727 distinct states found (109,469 ds/min), 410,498 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(76) at 2023-10-16 19:12:42: 88,562,338 states generated (712,544 s/min), 12,845,555 distinct states found (120,828 ds/min), 440,796 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(76) at 2023-10-16 19:13:42: 89,271,027 states generated (708,689 s/min), 12,954,099 distinct states found (108,544 ds/min), 459,839 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(76) at 2023-10-16 19:14:42: 89,979,728 states generated (708,701 s/min), 13,064,364 distinct states found (110,265 ds/min), 480,683 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(77) at 2023-10-16 19:15:42: 90,693,776 states generated (714,048 s/min), 13,175,337 distinct states found (110,973 ds/min), 499,759 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(77) at 2023-10-16 19:16:42: 91,391,812 states generated (698,036 s/min), 13,284,569 distinct states found (109,232 ds/min), 513,250 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(77) at 2023-10-16 19:17:42: 92,087,190 states generated (695,378 s/min), 13,389,425 distinct states found (104,856 ds/min), 521,363 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(77) at 2023-10-16 19:18:42: 92,781,856 states generated (694,666 s/min), 13,488,439 distinct states found (99,014 ds/min), 524,024 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(77) at 2023-10-16 19:19:42: 93,474,903 states generated (693,047 s/min), 13,583,155 distinct states found (94,716 ds/min), 521,927 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(78) at 2023-10-16 19:20:42: 94,173,655 states generated (698,752 s/min), 13,685,742 distinct states found (102,587 ds/min), 530,235 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(78) at 2023-10-16 19:21:42: 94,863,568 states generated (689,913 s/min), 13,786,769 distinct states found (101,027 ds/min), 527,583 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(78) at 2023-10-16 19:22:42: 95,552,192 states generated (688,624 s/min), 13,886,789 distinct states found (100,020 ds/min), 523,852 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(78) at 2023-10-16 19:23:42: 96,238,966 states generated (686,774 s/min), 13,974,503 distinct states found (87,714 ds/min), 506,566 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(78) at 2023-10-16 19:24:42: 96,924,425 states generated (685,459 s/min), 14,062,547 distinct states found (88,044 ds/min), 488,929 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(79) at 2023-10-16 19:25:42: 97,611,847 states generated (687,422 s/min), 14,159,371 distinct states found (96,824 ds/min), 483,841 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(79) at 2023-10-16 19:26:43: 98,303,179 states generated (691,332 s/min), 14,251,000 distinct states found (91,629 ds/min), 467,156 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(79) at 2023-10-16 19:27:43: 98,991,629 states generated (688,450 s/min), 14,340,351 distinct states found (89,351 ds/min), 447,406 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(79) at 2023-10-16 19:28:43: 99,679,807 states generated (688,178 s/min), 14,423,187 distinct states found (82,836 ds/min), 419,594 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(79) at 2023-10-16 19:29:43: 100,368,154 states generated (688,347 s/min), 14,508,248 distinct states found (85,061 ds/min), 394,614 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(80) at 2023-10-16 19:30:43: 101,065,617 states generated (697,463 s/min), 14,594,520 distinct states found (86,272 ds/min), 374,321 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(80) at 2023-10-16 19:31:43: 101,762,884 states generated (697,267 s/min), 14,675,021 distinct states found (80,501 ds/min), 345,100 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(80) at 2023-10-16 19:32:43: 102,467,651 states generated (704,767 s/min), 14,756,856 distinct states found (81,835 ds/min), 316,273 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(81) at 2023-10-16 19:33:43: 103,168,498 states generated (700,847 s/min), 14,837,914 distinct states found (81,058 ds/min), 288,919 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(81) at 2023-10-16 19:34:43: 103,882,036 states generated (713,538 s/min), 14,916,066 distinct states found (78,152 ds/min), 259,326 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(81) at 2023-10-16 19:35:43: 104,606,927 states generated (724,891 s/min), 15,007,678 distinct states found (91,612 ds/min), 246,437 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2195:0 @!@!@
+Checkpointing of run states/23-10-16-17-06-38.194
+@!@!@ENDMSG 2195 @!@!@
+@!@!@STARTMSG 2196:0 @!@!@
+Checkpointing completed at (2023-10-16 19:36:43)
+@!@!@ENDMSG 2196 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(82) at 2023-10-16 19:36:43: 105,328,853 states generated (721,926 s/min), 15,090,354 distinct states found (82,676 ds/min), 222,960 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(82) at 2023-10-16 19:37:43: 106,062,932 states generated (734,079 s/min), 15,189,364 distinct states found (99,010 ds/min), 222,232 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(83) at 2023-10-16 19:38:43: 106,795,421 states generated (732,489 s/min), 15,287,411 distinct states found (98,047 ds/min), 220,803 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(83) at 2023-10-16 19:39:43: 107,525,763 states generated (730,342 s/min), 15,397,889 distinct states found (110,478 ds/min), 236,942 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(83) at 2023-10-16 19:40:43: 108,253,991 states generated (728,228 s/min), 15,521,257 distinct states found (123,368 ds/min), 272,064 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(84) at 2023-10-16 19:41:43: 108,973,467 states generated (719,476 s/min), 15,627,251 distinct states found (105,994 ds/min), 284,683 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(84) at 2023-10-16 19:42:43: 109,684,028 states generated (710,561 s/min), 15,743,673 distinct states found (116,422 ds/min), 311,118 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(84) at 2023-10-16 19:43:43: 110,393,676 states generated (709,648 s/min), 15,857,929 distinct states found (114,256 ds/min), 335,471 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(85) at 2023-10-16 19:44:43: 111,097,856 states generated (704,180 s/min), 15,963,474 distinct states found (105,545 ds/min), 347,806 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(85) at 2023-10-16 19:45:43: 111,795,596 states generated (697,740 s/min), 16,072,202 distinct states found (108,728 ds/min), 360,991 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(85) at 2023-10-16 19:46:43: 112,491,543 states generated (695,947 s/min), 16,175,451 distinct states found (103,249 ds/min), 367,626 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(86) at 2023-10-16 19:47:43: 113,187,899 states generated (696,356 s/min), 16,273,016 distinct states found (97,565 ds/min), 370,344 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(86) at 2023-10-16 19:48:43: 113,879,085 states generated (691,186 s/min), 16,376,249 distinct states found (103,233 ds/min), 370,917 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(86) at 2023-10-16 19:49:43: 114,566,178 states generated (687,093 s/min), 16,468,593 distinct states found (92,344 ds/min), 358,087 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(86) at 2023-10-16 19:50:43: 115,254,133 states generated (687,955 s/min), 16,561,644 distinct states found (93,051 ds/min), 346,177 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(87) at 2023-10-16 19:51:43: 115,944,792 states generated (690,659 s/min), 16,655,353 distinct states found (93,709 ds/min), 335,877 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(87) at 2023-10-16 19:52:43: 116,634,274 states generated (689,482 s/min), 16,745,536 distinct states found (90,183 ds/min), 318,113 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(87) at 2023-10-16 19:53:43: 117,322,952 states generated (688,678 s/min), 16,830,431 distinct states found (84,895 ds/min), 292,165 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(88) at 2023-10-16 19:54:43: 118,018,388 states generated (695,436 s/min), 16,915,048 distinct states found (84,617 ds/min), 268,677 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(88) at 2023-10-16 19:55:43: 118,717,044 states generated (698,656 s/min), 16,994,681 distinct states found (79,633 ds/min), 239,060 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(88) at 2023-10-16 19:56:43: 119,417,769 states generated (700,725 s/min), 17,074,272 distinct states found (79,591 ds/min), 207,998 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(89) at 2023-10-16 19:57:43: 120,129,829 states generated (712,060 s/min), 17,151,026 distinct states found (76,754 ds/min), 177,722 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(89) at 2023-10-16 19:58:43: 120,848,362 states generated (718,533 s/min), 17,231,364 distinct states found (80,338 ds/min), 150,941 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(90) at 2023-10-16 19:59:43: 121,574,808 states generated (726,446 s/min), 17,312,125 distinct states found (80,761 ds/min), 128,104 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(91) at 2023-10-16 20:00:43: 122,305,809 states generated (731,001 s/min), 17,402,534 distinct states found (90,409 ds/min), 118,700 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(92) at 2023-10-16 20:01:43: 123,034,502 states generated (728,693 s/min), 17,514,722 distinct states found (112,188 ds/min), 137,777 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(92) at 2023-10-16 20:02:43: 123,748,401 states generated (713,899 s/min), 17,624,558 distinct states found (109,836 ds/min), 157,013 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(93) at 2023-10-16 20:03:43: 124,452,959 states generated (704,558 s/min), 17,730,600 distinct states found (106,042 ds/min), 170,868 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(93) at 2023-10-16 20:04:43: 125,148,792 states generated (695,833 s/min), 17,835,948 distinct states found (105,348 ds/min), 180,522 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(94) at 2023-10-16 20:05:43: 125,838,259 states generated (689,467 s/min), 17,934,864 distinct states found (98,916 ds/min), 179,358 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2195:0 @!@!@
+Checkpointing of run states/23-10-16-17-06-38.194
+@!@!@ENDMSG 2195 @!@!@
+@!@!@STARTMSG 2196:0 @!@!@
+Checkpointing completed at (2023-10-16 20:06:43)
+@!@!@ENDMSG 2196 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(95) at 2023-10-16 20:06:43: 126,529,999 states generated (691,740 s/min), 18,030,934 distinct states found (96,070 ds/min), 171,043 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(95) at 2023-10-16 20:07:43: 127,218,939 states generated (688,940 s/min), 18,120,371 distinct states found (89,437 ds/min), 153,596 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(96) at 2023-10-16 20:08:43: 127,914,266 states generated (695,327 s/min), 18,204,311 distinct states found (83,940 ds/min), 129,422 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(97) at 2023-10-16 20:09:43: 128,616,807 states generated (702,541 s/min), 18,283,447 distinct states found (79,136 ds/min), 99,223 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(98) at 2023-10-16 20:10:43: 129,331,671 states generated (714,864 s/min), 18,357,994 distinct states found (74,547 ds/min), 66,226 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(99) at 2023-10-16 20:11:43: 130,058,184 states generated (726,513 s/min), 18,442,527 distinct states found (84,533 ds/min), 49,913 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(101) at 2023-10-16 20:12:43: 130,767,491 states generated (709,307 s/min), 18,544,408 distinct states found (101,881 ds/min), 58,818 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(103) at 2023-10-16 20:13:43: 131,459,879 states generated (692,388 s/min), 18,642,005 distinct states found (97,597 ds/min), 56,804 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(105) at 2023-10-16 20:14:43: 132,160,739 states generated (700,860 s/min), 18,725,798 distinct states found (83,793 ds/min), 33,450 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(110) at 2023-10-16 20:15:43: 132,877,904 states generated (717,165 s/min), 18,809,600 distinct states found (83,802 ds/min), 17,387 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(120) at 2023-10-16 20:16:43: 133,583,465 states generated (705,561 s/min), 18,894,477 distinct states found (84,877 ds/min), 3,680 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2193:0 @!@!@
+Model checking completed. No error has been found.
+  Estimates of the probability that TLC did not check all reachable states
+  because two distinct states had the same fingerprint:
+  calculated (optimistic):  val = 1.2E-4
+  based on the actual fingerprints:  val = 2.7E-7
+@!@!@ENDMSG 2193 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(143) at 2023-10-16 20:16:53: 133,694,660 states generated (702,716 s/min), 18,905,668 distinct states found (99,370 ds/min), 0 states left on queue.
 @!@!@ENDMSG 2200 @!@!@
 @!@!@STARTMSG 2199:0 @!@!@
-24166824 states generated, 3391365 distinct states found, 915 states left on queue.
+133694660 states generated, 18905668 distinct states found, 0 states left on queue.
 @!@!@ENDMSG 2199 @!@!@
 @!@!@STARTMSG 2194:0 @!@!@
-The depth of the complete state graph search is 97.
+The depth of the complete state graph search is 143.
 @!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2268:0 @!@!@
+The average outdegree of the complete state graph is 1 (minimum is 0, the maximum 11 and the 95th percentile is 3).
+@!@!@ENDMSG 2268 @!@!@
 @!@!@STARTMSG 2186:0 @!@!@
-Finished in 725448ms at (2023-10-16 16:37:07)
+Finished in 11415278ms at (2023-10-16 20:16:53)
 @!@!@ENDMSG 2186 @!@!@

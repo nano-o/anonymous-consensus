@@ -1,0 +1,1260 @@
+@!@!@STARTMSG 2262:0 @!@!@
+TLC2 Version 2.18 of Day Month 20?? (rev: a73f911)
+@!@!@ENDMSG 2262 @!@!@
+@!@!@STARTMSG 2187:0 @!@!@
+Running breadth-first search Model-Checking with fp 97 and seed -8459922964001932106 with 16 workers on 20 cores with 36409MB heap and 64MB offheap memory [pid: 30270] (Linux 6.1.11-76060111-generic amd64, Ubuntu 11.0.20.1 x86_64, OffHeapDiskFPSet, DiskByteArrayQueue).
+@!@!@ENDMSG 2187 @!@!@
+@!@!@STARTMSG 2220:0 @!@!@
+Starting SANY...
+@!@!@ENDMSG 2220 @!@!@
+Parsing file /home/nano/Documents/anonymous-consensus/AnonymousConsensusMC.tla
+Parsing file /home/nano/Documents/anonymous-consensus/AnonymousConsensus.tla
+Parsing file /tmp/tlc-4367134636993664936/TLC.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/TLC.tla)
+Parsing file /tmp/tlc-4367134636993664936/Naturals.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/Naturals.tla)
+Parsing file /tmp/tlc-4367134636993664936/FiniteSets.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/FiniteSets.tla)
+Parsing file /tmp/tlc-4367134636993664936/Sequences.tla (jar:file:/home/nano/.vscode/extensions/alygin.vscode-tlaplus-nightly-2023.10.1606/tools/tla2tools.jar!/tla2sany/StandardModules/Sequences.tla)
+Semantic processing of module Naturals
+Semantic processing of module Sequences
+Semantic processing of module FiniteSets
+Semantic processing of module AnonymousConsensus
+Semantic processing of module TLC
+Semantic processing of module AnonymousConsensusMC
+@!@!@STARTMSG 2219:0 @!@!@
+SANY finished.
+@!@!@ENDMSG 2219 @!@!@
+@!@!@STARTMSG 2185:0 @!@!@
+Starting... (2023-10-16 16:25:02)
+@!@!@ENDMSG 2185 @!@!@
+@!@!@STARTMSG 2189:0 @!@!@
+Computing initial states...
+@!@!@ENDMSG 2189 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 2 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2269:0 @!@!@
+Computed 4 initial states...
+@!@!@ENDMSG 2269 @!@!@
+@!@!@STARTMSG 2191:0 @!@!@
+Finished computing initial states: 8 states generated, with 2 of them distinct at 2023-10-16 16:25:02.
+@!@!@ENDMSG 2191 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(24) at 2023-10-16 16:25:05: 97,323 states generated (97,323 s/min), 15,105 distinct states found (15,105 ds/min), 2,752 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(39) at 2023-10-16 16:26:05: 2,129,676 states generated (2,032,353 s/min), 321,759 distinct states found (306,654 ds/min), 37,476 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(45) at 2023-10-16 16:27:05: 4,186,784 states generated (2,057,108 s/min), 652,393 distinct states found (330,634 ds/min), 102,546 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(48) at 2023-10-16 16:28:05: 6,149,272 states generated (1,962,488 s/min), 918,153 distinct states found (265,760 ds/min), 75,696 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(51) at 2023-10-16 16:29:05: 8,214,723 states generated (2,065,451 s/min), 1,234,309 distinct states found (316,156 ds/min), 116,627 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(53) at 2023-10-16 16:30:05: 10,207,434 states generated (1,992,711 s/min), 1,540,078 distinct states found (305,769 ds/min), 159,363 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(55) at 2023-10-16 16:31:05: 12,159,550 states generated (1,952,116 s/min), 1,800,108 distinct states found (260,030 ds/min), 121,176 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(58) at 2023-10-16 16:32:05: 14,183,127 states generated (2,023,577 s/min), 2,056,812 distinct states found (256,704 ds/min), 81,897 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(61) at 2023-10-16 16:33:05: 16,200,156 states generated (2,017,029 s/min), 2,364,381 distinct states found (307,569 ds/min), 130,328 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(63) at 2023-10-16 16:34:05: 18,148,743 states generated (1,948,587 s/min), 2,629,924 distinct states found (265,543 ds/min), 105,042 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(67) at 2023-10-16 16:35:05: 20,158,136 states generated (2,009,393 s/min), 2,871,463 distinct states found (241,539 ds/min), 52,393 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(72) at 2023-10-16 16:36:05: 22,123,012 states generated (1,964,876 s/min), 3,141,146 distinct states found (269,683 ds/min), 44,269 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(92) at 2023-10-16 16:37:05: 24,112,343 states generated (1,989,331 s/min), 3,384,656 distinct states found (243,510 ds/min), 1,805 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2110:1 @!@!@
+Invariant Consensus is violated.
+@!@!@ENDMSG 2110 @!@!@
+@!@!@STARTMSG 2121:1 @!@!@
+The behavior up to this point is:
+@!@!@ENDMSG 2121 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+1: <Initial predicate>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l0" @@ p2 :> "l0" @@ p3 :> "l0")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+2: <l0(p3) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l0" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+3: <l0(p1) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+4: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+5: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+6: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+7: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+8: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+9: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> Bot @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l2" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+10: <l2(p1) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l0" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+11: <l0(p1) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+12: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+13: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+14: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+15: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+16: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+17: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> Bot @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l2" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+18: <l2(p1) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l0" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+19: <l0(p1) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+20: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+21: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+22: <l0(p2) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+23: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+24: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+25: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+26: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+27: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+28: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2, r3} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+29: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+30: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l2" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+31: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> Bot @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l2" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+32: <l2(p1) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l0" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+33: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l0" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+34: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l0" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 1 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+35: <l0(p1) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 1 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+36: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 1 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 1 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+37: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 2 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 1 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+38: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 1 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+39: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+40: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+41: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+42: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v1 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l2")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+43: <l2(p3) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l0")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+44: <l0(p3) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+45: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+46: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 1 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+47: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r4})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 1 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+48: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+49: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3, r4})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> Bot @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l2" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+50: <l2(p2) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+51: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 3 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+52: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+53: <l0(p2) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+54: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 1) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+55: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 1) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+56: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 1) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+57: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+58: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v1 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l2")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 2 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+59: <l2(p3) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l0")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+60: <l0(p3) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+61: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+62: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+63: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+64: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+65: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> Bot)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l2" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 3 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+66: <l2(p2) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 4 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+67: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 5 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+68: <l0(p2) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l1" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 5 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+69: <l1(p1) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {r1, r2, r3, r4, r5} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> Bot @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "l2" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 5 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+70: <l2(p1) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+71: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+72: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 2) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+73: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 2) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+74: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 2) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+75: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 2) @@
+  p3 :> (v1 :> 1 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+76: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 2) @@
+  p3 :> (v1 :> 2 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+77: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v1)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l2")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 2) @@
+  p3 :> (v1 :> 2 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+78: <l2(p3) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l0")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 2) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+79: <l0(p3) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 2) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+80: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 3) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+81: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v1 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v1 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l2" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 2 @@ v2 :> 3) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+82: <l2(p2) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+83: <l0(p2) line 67, col 13 to line 69, col 64 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+84: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 1) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+85: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 2) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+86: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 3) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+87: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 3) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+88: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 4) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+89: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 4) @@
+  p3 :> (v1 :> 0 @@ v2 :> 1) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+90: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 4) @@
+  p3 :> (v1 :> 0 @@ v2 :> 2) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+91: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l1" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 4) @@
+  p3 :> (v1 :> 0 @@ v2 :> 3) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+92: <l1(p2) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {r1, r2, r3, r4, r5} @@ p3 :> {r1, r2, r3})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v1 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l2" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 1 @@ v2 :> 4) @@
+  p3 :> (v1 :> 0 @@ v2 :> 3) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+93: <l2(p2) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r3})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 3) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+94: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 4) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+95: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l1")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 5) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+96: <l1(p3) line 71, col 13 to line 83, col 51 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {r1, r2, r3, r4, r5})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> Bot)
+/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "l2")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 5) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2217:4 @!@!@
+97: <l2(p3) line 85, col 13 to line 104, col 58 of module AnonymousConsensus>
+/\ read = (p1 :> {} @@ p2 :> {} @@ p3 :> {})
+/\ regs = (r1 :> v2 @@ r2 :> v2 @@ r3 :> v2 @@ r4 :> v2 @@ r5 :> v2)
+/\ pref = (p1 :> v1 @@ p2 :> v2 @@ p3 :> v2)
+/\ decision = (p1 :> v1 @@ p2 :> Bot @@ p3 :> v2)
+/\ pc = (p1 :> "Done" @@ p2 :> "l0" @@ p3 :> "Done")
+/\ count = ( p1 :> (v1 :> 0 @@ v2 :> 0) @@
+  p2 :> (v1 :> 0 @@ v2 :> 0) @@
+  p3 :> (v1 :> 0 @@ v2 :> 0) )
+
+@!@!@ENDMSG 2217 @!@!@
+@!@!@STARTMSG 2200:0 @!@!@
+Progress(97) at 2023-10-16 16:37:07: 24,166,824 states generated (1,998,780 s/min), 3,391,365 distinct states found (280,491 ds/min), 915 states left on queue.
+@!@!@ENDMSG 2200 @!@!@
+@!@!@STARTMSG 2199:0 @!@!@
+24166824 states generated, 3391365 distinct states found, 915 states left on queue.
+@!@!@ENDMSG 2199 @!@!@
+@!@!@STARTMSG 2194:0 @!@!@
+The depth of the complete state graph search is 97.
+@!@!@ENDMSG 2194 @!@!@
+@!@!@STARTMSG 2186:0 @!@!@
+Finished in 725448ms at (2023-10-16 16:37:07)
+@!@!@ENDMSG 2186 @!@!@
